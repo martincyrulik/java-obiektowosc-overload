@@ -21,11 +21,13 @@ public class Main {
         System.out.println("Suma " + a + " + " + b + " + " + c +" = " + calculator.add(a,b,c));
         System.out.println("Suma "+a+" + "+b+" + "+c+ " + "+d+ " = "+calculator.add(a,b,c,d));
         System.out.println("Suma "+a+ " + "+b+ " + "+c+ " + "+d+ " + "+e+ " = "+calculator.add(a,b,c,d,e));
+        System.out.println("Suma "+a+ " + "+b+ " + "+c+ " + "+d+ " + "+e+ " + 2 + 5 "+" = "+calculator.add(a,b,c,d,e,2,5));
 
         System.out.println("Różnica " +a +" - " +b + " = " + calculator.sub(a, b));
         System.out.println("Różnica " + a + " - " + b + " - " + c +" = " + calculator.sub(a,b,c));
         System.out.println("Różnica "+a+" - "+b+" - "+c+ " - "+d+ " = "+calculator.sub(a,b,c,d));
         System.out.println("Różnica "+a+ " - "+b+ " - "+c+ " - "+d+ " - "+e+ " = "+calculator.sub(a,b,c,d,e));
+        System.out.println("Różnica "+a+ " - "+b+ " - "+c+ " - "+d+ " - "+e+ " - 11 - 51 "+" = "+calculator.sub(a,b,c,d,e,11,51));
 
         System.out.println("Dzielenie " +a +" / " +b + " = " + calculator.div(a, b));
         System.out.println("Dzielenie " + a + " / " + b + " / " + c +" = " + calculator.div(a,b,c));
@@ -35,6 +37,6 @@ public class Main {
         System.out.println("Mnożenie " +a +" * " +b + " = " + calculator.multi(a, b));
         System.out.println("Mnożenie " + a + " * " + b + " * " + c +" = " + calculator.multi(a,b,c));
         System.out.println("Mnożenie "+a+" * "+b+" * "+c+ " * "+d+ " = "+calculator.multi(a,b,c,d));
-        System.out.println("Mnożenie "+a+ " * "+b+ " * "+c+ " * "+d+ " * "+e+ " = "+calculator.multi(a,b,c,d,e));
+        System.out.println("Mnożenie "+a+ " * "+b+ " * "+c+ " * "+d+ " * "+e+ " * 9 * 2 * 1 * -4 = " +calculator.multi(a,b,c,d,e,9,2,1,-4));
     }
 }
